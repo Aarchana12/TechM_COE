@@ -33,4 +33,4 @@ bookstore/
 └── fonts/             # Folder for custom fonts
 ```
 ### Upcoming Tasks
-New tasks will be added to this repository on a weekly basis as part of the COE training curriculum. Stay tuned for updates!
+New tasks will be added to this repository on a weekly basis as part of the COE training curriculum. 
