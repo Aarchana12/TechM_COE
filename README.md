@@ -7,6 +7,7 @@ This repository contains all the weekly tasks assigned during my COE training at
 | Task No. | Task Name            | Description                                   | Status       |
 |----------|----------------------|-----------------------------------------------|--------------|
 | 1        | Book Store Website   | Create a responsive Book Store website using HTML5 and CSS3. | ✅ Completed |
+| 2        | Java OOPS & Basics   | Implement core Java concepts and OOPS principles. | ✅ Completed |
 
 ---
 
@@ -15,22 +16,26 @@ This repository contains all the weekly tasks assigned during my COE training at
 ### Objective
 To build a responsive Book Store website that displays books with details like title, author, price, description, and category. This task focuses on structuring the website using **HTML5** and styling it with **CSS3**.
 
-### Features
-- **Homepage**: Introduction to the Book Store with navigation links.
-- **Books Page**: Displays book details including title, author, price, and cover.
-- **Contact Page**: Includes a form for users to send messages.
+---
 
-### Project Structure
-```plaintext
-bookstore/
-│
-├── index.html         # Homepage
-├── books.html         # Books listing page
-├── contact.html       # Contact page
-├── styles/
-│   └── style.css      # CSS for styling
-├── images/            # Folder for book cover images
-└── fonts/             # Folder for custom fonts
-```
+## Task 2: Java OOPS & Basics
+
+### Objective
+To implement core Java concepts and Object-Oriented Programming principles. 
+
+### Concepts Covered
+- Object-Oriented Programming (OOPS)
+- Polymorphism
+- Exception Handling
+- Abstraction and Interfaces
+- Final Keyword
+- String Handling
+- Primitive vs Reference Variables
+- Enumerations
+- Utility Classes
+- Finding Anagrams and Factorial Trailing Zeros
+
+---
+
 ### Upcoming Tasks
-New tasks will be added to this repository on a weekly basis as part of the COE training curriculum. 
+New tasks will be added to this repository on a weekly basis as part of the COE training curriculum.
