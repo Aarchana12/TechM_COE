@@ -55,6 +55,4 @@ To perform **various operations using Java**, covering multiple important topics
 ---
 
 ### 📌 Upcoming Tasks  
-New tasks will be added to this repository on a **weekly basis** as part of the **COE training curriculum**.  
-
-Let me know if you need further modifications! 🚀🔥  
+New tasks will be added to this repository on a **weekly basis** as part of the **COE training curriculum**.🚀🔥  
