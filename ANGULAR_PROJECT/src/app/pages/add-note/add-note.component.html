@@ -1,0 +1,35 @@
+<div class="container mt-4">
+    <h2 class="text-center">Add a New Note</h2>
+    <form [formGroup]="noteForm" (ngSubmit)="onSubmit()" class="mt-3">
+      <div class="mb-3">
+        <label class="form-label">Title</label>
+        <input type="text" class="form-control" formControlName="title" placeholder="Enter title">
+      </div>
+  
+      <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea class="form-control" formControlName="description" rows="3" placeholder="Enter description"></textarea>
+      </div>
+  
+      <div class="mb-3">
+        <label class="form-label">Image URL</label>
+        <input type="text" class="form-control" formControlName="image" placeholder="Enter image URL">
+      </div>
+  
+      <div class="mb-3">
+        <label class="form-label">Category</label>
+        <select class="form-control" formControlName="category">
+          <option value="" disabled selected>Select a category</option>
+          <option *ngFor="let cat of categories" [value]="cat">{{ cat }}</option>
+        </select>
+      </div>
+  
+      <div class="mb-3">
+        <label class="form-label">PDF/Doc Link</label>
+        <input type="url" class="form-control" formControlName="link" placeholder="Enter PDF/Doc URL">
+      </div>
+  
+      <button type="submit" class="btn btn-primary w-100" [disabled]="!noteForm.valid">Add Note</button>
+    </form>
+  </div>
+  

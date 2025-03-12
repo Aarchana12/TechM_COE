@@ -1,0 +1,68 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "title": "Discrete Mathematics Unit 1",
+      "description": "Anna University Discrete Mathematics Notes - Unit 1",
+      "category": "Mathematics",
+      "image": "assets/images/discrete.png",
+      "link": "https://drive.google.com/file/d/1bvbshNW1ar7Zuqfr1L3p-LikMxoAWss_/view?usp=drive_link"
+    },
+    {
+      "id": "2",
+      "title": "Data Structures and Algorithms Unit 1",
+      "description": "Anna University DSA Notes - Unit 1",
+      "category": "Engineering & Technology",
+      "image": "assets/images/dsa.jpeg",
+      "link": "https://drive.google.com/file/d/1nPxmU1sSpXDA2NJRkAPx-Rdw9jACcQRk/view?usp=drive_link"
+    },
+    {
+      "id": "3",
+      "title": "Data Science Unit 1",
+      "description": "Anna University Data Science Notes - Unit 1",
+      "category": "Engineering & Technology",
+      "image": "assets/images/ds.jpeg",
+      "link": "https://docs.google.com/document/d/16ngplmw3b_M4Q79kYdLYgd9Owjcl63Es/edit?tab=t.0"
+    },
+    {
+      "id": "4",
+      "title": "Object Oriented Programming Unit 1",
+      "description": "Anna University OOP Notes - Unit 1",
+      "category": "Engineering & Technology",
+      "image": "assets/images/oop.png",
+      "link": "https://drive.google.com/file/d/1lsdybKPQdFMDLx1oX2xEJ9wMxX_dzg9g/view?usp=drive_link"
+    },
+    {
+      "id": "5454",
+      "title": "Theory of Computation",
+      "description": "2018 Edition Full Book By Technical Publications",
+      "image": "https://researcherstore.com/wp-content/uploads/2021/07/TOC-%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5.png",
+      "category": "Engineering & Technology",
+      "link": "https://drive.google.com/file/d/1gQilqMHUeM3ZMe5cQDoD296xO17_eLjx/view?usp=drive_link"
+    },
+    {
+      "id": "1fcd",
+      "title": "Computer Networks - Unit 1",
+      "description": "Computer Network notes based on Anna University Syllabus",
+      "image": "https://img.brainkart.com/subject/221.jpg",
+      "category": "Engineering & Technology",
+      "link": "https://drive.google.com/file/d/1Tvy2bg5QA-ROHaWaHkuE4asefySCcPK6/view?usp=sharing"
+    },
+    {
+      "id": "d82c",
+      "title": "Digital Principles and Computer Organization Unit 1",
+      "description": "Unit 1 notes on DPCO based on Anna University Syllabus",
+      "image": "https://www.poriyaan.in/media/cata/size/28-Digit-Ho.jpg",
+      "category": "Engineering & Technology",
+      "link": "https://drive.google.com/file/d/1lx-ntaWhdCp_SeceWuJYM8DmlTGBNGud/view?usp=sharing"
+    },
+    {
+      "id": "e01f",
+      "title": "Higher Engineering Mathematics - Sixth Edition",
+      "description": "Full Book by John Bird",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240621005423/Engineering-Mathematics-Banner.webp",
+      "category": "Mathematics",
+      "link": "https://drive.google.com/file/d/1iLzItcQybEuWtbv8X1iFt_fqTJUM5Wd8/view"
+    }
+  ]
+}

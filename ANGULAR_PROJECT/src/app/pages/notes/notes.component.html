@@ -1,0 +1,11 @@
+<div class="notes-container">
+    <div class="note-card" *ngFor="let note of filteredNotes">
+      <img [src]="note.image" alt="{{ note.title }}">
+      <div class="note-content">
+        <h3 class="note-title">{{ note.title }}</h3>
+        <p class="note-description">{{ note.description }}</p>
+        <a [href]="note.link" target="_blank" class="view-button">View Notes</a>
+      </div>
+    </div>
+  </div>
+  

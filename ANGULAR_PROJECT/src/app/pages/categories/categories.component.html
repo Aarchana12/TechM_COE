@@ -1,0 +1,17 @@
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Browse Categories</h2>
+  
+    <div class="row">
+      <div class="col-md-6" *ngFor="let category of categories">
+        <div class="card shadow-lg p-3 mb-4 rounded">
+          <img [src]="category.image" class="card-img-top" alt="{{ category.name }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ category.name }}</h5>
+            <p class="card-text">Browse notes related to {{ category.name }}.</p>
+            <button class="btn btn-primary" (click)="viewNotes(category.name)">View Notes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
