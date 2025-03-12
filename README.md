@@ -12,6 +12,7 @@ This repository contains all the weekly tasks assigned during my **COE training 
 | 2        | Java OOPS & Basics           | Implement core Java concepts and OOPS principles.                                                 | ✅ Completed |
 | 3        | Core Java Consolidated Tasks | Perform various operations using Java, covering IO, Collections, Threads, and more.               | ✅ Completed |
 | 4        | E-Magazine Website           | Build a responsive e-magazine platform with categories, articles, multimedia & search features.   | ✅ Completed |
+| 5        | NotesApp - Angular Project   | Develop a Single Page Application (SPA) using Angular to manage and categorize notes.             | ✅ Completed |
 
 ---
 
@@ -68,5 +69,23 @@ To build a **fully responsive e-magazine/news website** with:
 
 ---
 
+## Task 5: NotesApp - Angular Project (📁 `ANGULAR_PROJECT/`)
+
+### 🔹 Introduction
+NotesApp is a **Single Page Application (SPA)** built using **Angular** that allows users to browse, add, and categorize notes efficiently. The app features a user-friendly UI and integrates API calls for fetching and storing notes.
+
+### 🚀 Features
+✅ Browse and add notes  
+✅ Categorized notes section  
+✅ Responsive UI with Bootstrap  
+✅ API integration using JSON server  
+✅ Uses Angular services, routing, forms, and observables  
+
 ### 📌 Upcoming Tasks
 New tasks will be added to this repository on a **weekly basis** as part of the **COE training curriculum**.🚀🔥
+
+---
+
+## 👩‍💻 Author
+Developed by **Aarchana Nichani**  
+🔗 [LinkedIn](https://www.linkedin.com/in/aarchana-nichani)  
