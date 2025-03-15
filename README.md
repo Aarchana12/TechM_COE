@@ -13,6 +13,7 @@ This repository contains all the weekly tasks assigned during my **COE training 
 | 3        | Core Java Consolidated Tasks | Perform various operations using Java, covering IO, Collections, Threads, and more.               | ✅ Completed |
 | 4        | E-Magazine Website           | Build a responsive e-magazine platform with categories, articles, multimedia & search features.   | ✅ Completed |
 | 5        | NotesApp - Angular Project   | Develop a Single Page Application (SPA) using Angular to manage and categorize notes.             | ✅ Completed |
+| 6        | FixItNow - Flutter Project   | Create a comprehensive Flutter app for finding local service providers with Firebase integration.  | ✅ Completed |
 
 ---
 
@@ -81,11 +82,28 @@ NotesApp is a **Single Page Application (SPA)** built using **Angular** that all
 ✅ API integration using JSON server  
 ✅ Uses Angular services, routing, forms, and observables  
 
-### 📌 Upcoming Tasks
+---
+
+## Task 6: FixItNow - Flutter Project (📁 `FLUTTER_PROJECT/`)
+
+### 🔹 Introduction
+FixItNow is a **Flutter-based mobile application** designed to help users find and book **local service providers** like plumbers, electricians, and carpenters. The app features Firebase integration for **real-time data storage** and supports **multi-language localization (English & Tamil)**.
+
+### 🚀 Features
+✅ **Navigation & Routing** for a seamless user experience  
+✅ **Event-driven interactions** for booking and managing services  
+✅ **Firebase Database** for storing service provider details  
+✅ **Multi-language support** (English & Tamil)  
+✅ **User-friendly UI with modern layouts and images**  
+✅ **Google Maps API integration (optional)** for location-based services  
+
+---
+
+## 📌 Upcoming Tasks
 New tasks will be added to this repository on a **weekly basis** as part of the **COE training curriculum**.🚀🔥
 
 ---
 
 ## 👩‍💻 Author
 Developed by **Aarchana Nichani**  
-🔗 [LinkedIn](https://www.linkedin.com/in/aarchana-nichani)  
+🔗 [LinkedIn](https://www.linkedin.com/in/aarchana-nichani)
