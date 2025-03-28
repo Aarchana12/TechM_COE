@@ -3,53 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Mahindra COE Training</title>
+    <title>TechM COE Training</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            padding: 20px;
+            font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
         }
+
         .container {
-            max-width: 900px;
-            margin: auto;
-            background: white;
+            max-width: 1200px;
+            margin: 40px auto;
             padding: 20px;
-            border-radius: 8px;
+            background: white;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
         }
-        .repo-item {
-            background: #007bff;
-            color: white;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .folder-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .folder-card:hover {
+            transform: scale(1.05);
+            background: #e3f2fd;
+        }
+
+        .folder-card i {
+            font-size: 40px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .folder-card a {
             text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
             display: block;
+            margin-top: 10px;
         }
-        .repo-item:hover {
-            background: #0056b3;
+
+        .folder-card a:hover {
+            color: #007bff;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Tech Mahindra COE Training: Project Folders</h1>
-    <p>Explore the different projects and tasks completed during the training.</p>
-    
-    <h2>📂 Repository Folders</h2>
-    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/BookStore" class="repo-item">📚 Book Store Website - A responsive online book store using HTML & CSS</a>
-    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/Java_OOPS" class="repo-item">☕ Java OOPS & Basics - Core Java concepts with OOP principles</a>
-    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/Core_Java_Tasks" class="repo-item">🔢 Core Java Tasks - Covers IO, Collections, Threads, and JDBC</a>
-    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/EMagazine" class="repo-item">📰 E-Magazine Website - A feature-rich magazine/news portal</a>
-    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/NotesApp" class="repo-item">📝 NotesApp (Angular) - A note management system built with Angular</a>
-    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/FixItNow" class="repo-item">🔧 FixItNow (Flutter) - A local service finder app using Firebase</a>
+    <h1>📂 Tech Mahindra COE Training Repository</h1>
+    <p>Browse through my TechM COE Training projects and assignments.</p>
+
+    <div class="grid-container">
+        <div class="folder-card">
+            <i class="fas fa-code"></i>
+            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/AEM_TRAINING(18-03-25_to_28.03.25)" target="_blank">AEM Training</a>
+        </div>
+
+        <div class="folder-card">
+            <i class="fab fa-angular"></i>
+            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/ANGULAR_PROJECT" target="_blank">Angular Project</a>
+        </div>
+
+        <div class="folder-card">
+            <i class="fab fa-bootstrap"></i>
+            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/BOOTSTRAP_TASK" target="_blank">Bootstrap Task</a>
+        </div>
+
+        <div class="folder-card">
+            <i class="fab fa-react"></i>
+            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/REACT_HANDS_ON" target="_blank">React Hands-On</a>
+        </div>
+
+        <div class="folder-card">
+            <i class="fab fa-react"></i>
+            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/REACT_TASK(10-03-2025)" target="_blank">React Task (10-03-2025)</a>
+        </div>
+
+        <div class="folder-card">
+            <i class="fab fa-java"></i>
+            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/JAVA_CONSOLIDATED_TASKS" target="_blank">Java Tasks</a>
+        </div>
+
+        <div class="folder-card">
+            <i class="fab fa-flutter"></i>
+            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/FLUTTER_PROJECT" target="_blank">Flutter Project</a>
+        </div>
+
+        <div class="folder-card">
+            <i class="fas fa-book"></i>
+            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/TASK_1_BOOKSTORE" target="_blank">Book Store Task</a>
+        </div>
+
+        <div class="folder-card">
+            <i class="fab fa-java"></i>
+            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/TASK_2_JAVA" target="_blank">Java Task</a>
+        </div>
+
+        <div class="folder-card">
+            <i class="fas fa-newspaper"></i>
+            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/TASK_4_E-Magazine" target="_blank">E-Magazine Task</a>
+        </div>
+    </div>
+
+    <p class="footer">Developed by <strong>Aarchana Nichani</strong> | <a href="https://www.linkedin.com/in/aarchana-nichani" target="_blank">LinkedIn</a></p>
 </div>
 
 </body>
