@@ -8,10 +8,9 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f0f2f5;
             margin: 0;
             padding: 0;
-            text-align: center;
         }
 
         .container {
@@ -20,41 +19,48 @@
             padding: 20px;
             background: white;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
 
         h1 {
-            color: #333;
-            font-size: 28px;
-            margin-bottom: 20px;
+            color: #222;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            font-size: 16px;
         }
 
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
             padding: 20px;
+            justify-items: center;
         }
 
         .folder-card {
             background: #fff;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             transition: 0.3s ease-in-out;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            width: 100%;
+            max-width: 320px;
             text-align: center;
         }
 
         .folder-card:hover {
-            transform: scale(1.05);
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             background: #e3f2fd;
         }
 
         .folder-card i {
-            font-size: 40px;
+            font-size: 45px;
             color: #007bff;
             margin-bottom: 10px;
         }
@@ -63,19 +69,24 @@
             text-decoration: none;
             color: #333;
             font-weight: bold;
-            font-size: 18px;
+            font-size: 20px;
             display: block;
-            margin-top: 10px;
+            margin-bottom: 8px;
         }
 
         .folder-card a:hover {
             color: #007bff;
         }
 
+        .folder-desc {
+            font-size: 14px;
+            color: #555;
+        }
+
         .footer {
             margin-top: 20px;
             font-size: 14px;
-            color: #555;
+            color: #777;
         }
     </style>
 </head>
@@ -83,61 +94,71 @@
 
 <div class="container">
     <h1>📂 Tech Mahindra COE Training Repository</h1>
-    <p>Browse through my TechM COE Training projects and assignments.</p>
+    <p>Browse through my projects and assignments from the TechM COE training.</p>
 
     <div class="grid-container">
         <div class="folder-card">
-            <i class="fas fa-code"></i>
+            <i class="fas fa-server"></i>
             <a href="https://github.com/Aarchana12/TechM_COE/tree/main/AEM_TRAINING(18-03-25_to_28.03.25)" target="_blank">AEM Training</a>
+            <p class="folder-desc">Adobe Experience Manager (AEM) training with components, DAM, and workflows.</p>
         </div>
 
         <div class="folder-card">
             <i class="fab fa-angular"></i>
             <a href="https://github.com/Aarchana12/TechM_COE/tree/main/ANGULAR_PROJECT" target="_blank">Angular Project</a>
+            <p class="folder-desc">Single-page application (SPA) built using Angular framework.</p>
         </div>
 
         <div class="folder-card">
             <i class="fab fa-bootstrap"></i>
             <a href="https://github.com/Aarchana12/TechM_COE/tree/main/BOOTSTRAP_TASK" target="_blank">Bootstrap Task</a>
+            <p class="folder-desc">Styling exercises using Bootstrap components and layouts.</p>
         </div>
 
         <div class="folder-card">
             <i class="fab fa-react"></i>
             <a href="https://github.com/Aarchana12/TechM_COE/tree/main/REACT_HANDS_ON" target="_blank">React Hands-On</a>
+            <p class="folder-desc">Practical tasks on React.js including state management and hooks.</p>
         </div>
 
         <div class="folder-card">
             <i class="fab fa-react"></i>
-            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/REACT_TASK(10-03-2025)" target="_blank">React Task (10-03-2025)</a>
+            <a href="https://github.com/Aarchana12/TechM_COE/tree/main/REACT_TASK(10-03-2025)" target="_blank">React Task</a>
+            <p class="folder-desc">Advanced React project with API integration and dynamic UI.</p>
         </div>
 
         <div class="folder-card">
             <i class="fab fa-java"></i>
             <a href="https://github.com/Aarchana12/TechM_COE/tree/main/JAVA_CONSOLIDATED_TASKS" target="_blank">Java Tasks</a>
+            <p class="folder-desc">Core Java tasks covering OOP concepts, Collections, and JDBC.</p>
         </div>
 
         <div class="folder-card">
             <i class="fab fa-flutter"></i>
             <a href="https://github.com/Aarchana12/TechM_COE/tree/main/FLUTTER_PROJECT" target="_blank">Flutter Project</a>
+            <p class="folder-desc">A mobile application built using Flutter and Dart.</p>
         </div>
 
         <div class="folder-card">
             <i class="fas fa-book"></i>
             <a href="https://github.com/Aarchana12/TechM_COE/tree/main/TASK_1_BOOKSTORE" target="_blank">Book Store Task</a>
+            <p class="folder-desc">E-commerce book store prototype with search and filtering.</p>
         </div>
 
         <div class="folder-card">
             <i class="fab fa-java"></i>
             <a href="https://github.com/Aarchana12/TechM_COE/tree/main/TASK_2_JAVA" target="_blank">Java Task</a>
+            <p class="folder-desc">Backend logic for a Java-based application.</p>
         </div>
 
         <div class="folder-card">
             <i class="fas fa-newspaper"></i>
             <a href="https://github.com/Aarchana12/TechM_COE/tree/main/TASK_4_E-Magazine" target="_blank">E-Magazine Task</a>
+            <p class="folder-desc">A digital magazine project with dynamic content loading.</p>
         </div>
     </div>
 
-    <p class="footer">Developed by <strong>Aarchana Nichani</strong> | <a href="https://www.linkedin.com/in/aarchana-nichani" target="_blank">LinkedIn</a></p>
+    <p class="footer">Developed by <strong>Aarchana Nichani</strong> | <a href="https://www.linkedin.com/in/aarchananichani" target="_blank">LinkedIn</a></p>
 </div>
 
 </body>
