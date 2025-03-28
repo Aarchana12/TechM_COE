@@ -12,27 +12,6 @@
             padding: 20px;
             background-color: #f4f4f4;
         }
-        h1, h2 {
-            color: #333;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-            background: #fff;
-        }
-        table, th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background: #007bff;
-            color: white;
-        }
-        ul {
-            list-style-type: square;
-        }
         .container {
             max-width: 900px;
             margin: auto;
@@ -41,122 +20,36 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        h1 {
+            color: #333;
+        }
+        .repo-item {
+            background: #007bff;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            text-decoration: none;
+            display: block;
+        }
+        .repo-item:hover {
+            background: #0056b3;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Tech Mahindra COE Training: Weekly Tasks Repository</h1>
-    <p>This repository contains all the weekly tasks assigned during my <strong>COE training at Tech Mahindra</strong>. Each task focuses on enhancing practical knowledge in various domains of <strong>web development, programming, and design</strong>.</p>
-
-    <h2>📌 Tasks Overview</h2>
-    <table>
-        <tr>
-            <th>Task No.</th>
-            <th>Task Name</th>
-            <th>Description</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Book Store Website</td>
-            <td>Create a responsive Book Store website using HTML5 and CSS3.</td>
-            <td>✅ Completed</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Java OOPS & Basics</td>
-            <td>Implement core Java concepts and OOPS principles.</td>
-            <td>✅ Completed</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Core Java Consolidated Tasks</td>
-            <td>Perform various operations using Java, covering IO, Collections, Threads, and more.</td>
-            <td>✅ Completed</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>E-Magazine Website</td>
-            <td>Build a responsive e-magazine platform with categories, articles, multimedia & search features.</td>
-            <td>✅ Completed</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>NotesApp - Angular Project</td>
-            <td>Develop a Single Page Application (SPA) using Angular to manage and categorize notes.</td>
-            <td>✅ Completed</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>FixItNow - Flutter Project</td>
-            <td>Create a comprehensive Flutter app for finding local service providers with Firebase integration.</td>
-            <td>✅ Completed</td>
-        </tr>
-    </table>
-
-    <h2>📌 Task Details</h2>
-
-    <h3>Task 1: Book Store Website</h3>
-    <p><strong>Objective:</strong> To build a <strong>responsive Book Store website</strong> that displays books with details like <strong>title, author, price, description, and category</strong>. This task focuses on structuring the website using <strong>HTML5</strong> and styling it with <strong>CSS3</strong>.</p>
-
-    <h3>Task 2: Java OOPS & Basics</h3>
-    <p><strong>Objective:</strong> To implement <strong>core Java concepts</strong> and <strong>Object-Oriented Programming (OOPS)</strong> principles.</p>
-    <ul>
-        <li>OOPS Concepts (Encapsulation, Abstraction, Inheritance, Polymorphism)</li>
-        <li>Exception Handling</li>
-        <li>Final Keyword</li>
-        <li>Enumerations & Utility Classes</li>
-        <li>Finding Anagrams and Factorial Trailing Zeros</li>
-    </ul>
-
-    <h3>Task 3: Core Java Consolidated Tasks</h3>
-    <p><strong>Objective:</strong> Perform various Java operations covering file handling, exceptions, multi-threading, collections, and JDBC.</p>
-    <ul>
-        <li>File Handling (IO Streams)</li>
-        <li>Exception Handling</li>
-        <li>Multi-threading</li>
-        <li>Collections API</li>
-        <li>Generics & Java 8 Streams</li>
-        <li>JDBC Operations</li>
-    </ul>
-
-    <h3>Task 4: E-Magazine Website</h3>
-    <p><strong>Objective:</strong> Develop a <strong>fully responsive e-magazine/news website</strong> with features like:</p>
-    <ul>
-        <li>Category-wise news filtering</li>
-        <li>Search functionality</li>
-        <li>Article pages with multimedia</li>
-    </ul>
-
-    <h3>Task 5: NotesApp - Angular Project</h3>
-    <p><strong>📂 Folder:</strong> <code>ANGULAR_PROJECT/</code></p>
-    <p><strong>Introduction:</strong> NotesApp is a <strong>Single Page Application (SPA)</strong> built using Angular that allows users to browse, add, and categorize notes efficiently.</p>
-    <p><strong>Features:</strong></p>
-    <ul>
-        <li>Browse and add notes</li>
-        <li>Categorized notes section</li>
-        <li>Responsive UI with Bootstrap</li>
-        <li>Uses Angular services, routing, forms, and observables</li>
-    </ul>
-
-    <h3>Task 6: FixItNow - Flutter Project</h3>
-    <p><strong>📂 Folder:</strong> <code>FLUTTER_PROJECT/</code></p>
-    <p><strong>Introduction:</strong> FixItNow is a <strong>Flutter-based mobile application</strong> designed to help users find and book <strong>local service providers</strong>.</p>
-    <p><strong>Features:</strong></p>
-    <ul>
-        <li>Navigation & Routing</li>
-        <li>Firebase Database for real-time data</li>
-        <li>Multi-language support (English & Tamil)</li>
-        <li>Google Maps API integration (optional)</li>
-    </ul>
-
-    <h2>📌 Upcoming Tasks</h2>
-    <p>New tasks will be added weekly as part of the <strong>COE training curriculum</strong>. 🚀🔥</p>
-
-    <h2>👩‍💻 Author</h2>
-    <p>Developed by <strong>Aarchana Nichani</strong></p>
-    <p>🔗 <a href="https://www.linkedin.com/in/aarchana-nichani">LinkedIn</a></p>
+    <h1>Tech Mahindra COE Training: Project Folders</h1>
+    <p>Explore the different projects and tasks completed during the training.</p>
+    
+    <h2>📂 Repository Folders</h2>
+    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/BookStore" class="repo-item">📚 Book Store Website - A responsive online book store using HTML & CSS</a>
+    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/Java_OOPS" class="repo-item">☕ Java OOPS & Basics - Core Java concepts with OOP principles</a>
+    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/Core_Java_Tasks" class="repo-item">🔢 Core Java Tasks - Covers IO, Collections, Threads, and JDBC</a>
+    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/EMagazine" class="repo-item">📰 E-Magazine Website - A feature-rich magazine/news portal</a>
+    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/NotesApp" class="repo-item">📝 NotesApp (Angular) - A note management system built with Angular</a>
+    <a href="https://github.com/Aarchana12/TechM_COE/tree/main/FixItNow" class="repo-item">🔧 FixItNow (Flutter) - A local service finder app using Firebase</a>
 </div>
 
 </body>
