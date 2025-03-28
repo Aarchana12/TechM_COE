@@ -1,110 +1,83 @@
-# Maven & AEM Project Overview
+# Maven in AEM
 
 ## Maven Lifecycle
-<details>
-  <summary>What is Maven Lifecycle?</summary>
-  Maven lifecycle consists of different phases such as:
-  - **Validate**: Checks if the project is correct and all necessary information is available.
-  - **Compile**: Compiles the source code.
-  - **Test**: Runs unit tests.
-  - **Package**: Bundles the compiled code into a deployable format (e.g., JAR, WAR, ZIP).
-  - **Verify**: Runs additional checks.
-  - **Install**: Installs the package in the local repository.
-  - **Deploy**: Deploys the package to a remote repository.
-</details>
+Maven follows a lifecycle consisting of several phases:
+- **validate** – Validates the project structure and necessary configuration.
+- **compile** – Compiles the source code.
+- **test** – Runs unit tests.
+- **package** – Packages compiled code into JAR/WAR.
+- **verify** – Verifies the package.
+- **install** – Installs the package into the local repository.
+- **deploy** – Deploys the built package to a remote repository.
 
-## POM.xml File
-<details>
-  <summary>What is pom.xml and why do we use it?</summary>
-  - `pom.xml` (Project Object Model) is the core configuration file for Maven.
-  - It defines the project, dependencies, build settings, and plugins.
-  - It enables automation of builds and dependency management.
-</details>
+## What is `pom.xml` and Why Do We Use It?
+The `pom.xml` (Project Object Model) file is the configuration file for a Maven project. It contains project metadata, dependencies, plugins, build settings, and profiles. It helps in managing the build process efficiently.
 
-## Maven Dependencies
-<details>
-  <summary>How do dependencies work?</summary>
-  - Dependencies are managed inside `pom.xml` using `<dependencies>`.
-  - Maven automatically downloads dependencies from the Maven Central Repository.
-  - Example:
-    ```xml
-    <dependencies>
-      <dependency>
+## How Dependencies Work?
+Maven uses dependencies to include external libraries in the project. Dependencies are declared in the `pom.xml` file. When Maven builds the project, it fetches the required libraries from the Maven repository and adds them to the project.
+
+Example:
+```xml
+<dependencies>
+    <dependency>
         <groupId>org.apache.sling</groupId>
         <artifactId>org.apache.sling.api</artifactId>
-        <version>2.24.0</version>
-      </dependency>
-    </dependencies>
-    ```
-</details>
+        <version>2.20.0</version>
+    </dependency>
+</dependencies>
+```
 
-## Maven Repository
-<details>
-  <summary>How to check the Maven repository?</summary>
-  - Maven repositories store JAR files and metadata for dependencies.
-  - Types of repositories:
-    - **Local Repository** (`.m2` folder on your machine)
-    - **Central Repository** (Maven Central: https://repo.maven.apache.org/maven2/)
-    - **Remote Repository** (Company-specific repositories like Nexus, Artifactory)
-</details>
+## Checking the Maven Repository
+Maven repositories store dependencies and artifacts. You can check:
+- **Local Repository:** Stored in `~/.m2/repository` on your system.
+- **Central Repository:** Available at [Maven Central](https://repo.maven.apache.org/maven2/).
+- **Remote Repositories:** Configured in `pom.xml` for fetching dependencies.
 
-## Building Modules with Maven
-<details>
-  <summary>How do all modules build using Maven?</summary>
-  - Use the following command to build all modules:
-    ```sh
-    mvn clean install
-    ```
-  - This command compiles, tests, packages, and installs the project in the local repository.
-</details>
+## How Are All Modules Built Using Maven?
+Maven follows a modular approach in AEM projects. The `all` module aggregates all other modules (`core`, `ui.apps`, `ui.content`, etc.) and builds them together.
 
-<details>
-  <summary>Can we build a specific module?</summary>
-  - Yes, use:
-    ```sh
-    mvn clean install -pl <module-name> -am
-    ```
-  - Example:
-    ```sh
-    mvn clean install -pl core -am
-    ```
-</details>
+To build all modules:
+```sh
+mvn clean install
+```
 
-## AEM Folder Structure
-<details>
-  <summary>Role of ui.apps, ui.content, and ui.frontend folders?</summary>
-  - **ui.apps**: Stores the OSGi configurations, component definitions, templates, etc.
-  - **ui.content**: Stores content such as pages and assets.
-  - **ui.frontend**: Stores client-side code (JavaScript, CSS, etc.)
-</details>
+## Can We Build a Specific Module?
+Yes, you can build a specific module by navigating to its directory and running:
+```sh
+mvn clean install
+```
+Example:
+```sh
+cd ui.apps
+mvn clean install
+```
 
-## Run Modes in AEM
-<details>
-  <summary>Why are we using run mode?</summary>
-  - Run modes allow different configurations based on the environment (dev, stage, prod).
-  - Example:
-    ```sh
-    java -jar aem-author.jar -r author,dev
-    ```
-</details>
+## Role of `ui.apps`, `ui.content`, and `ui.frontend` Folders
+- **ui.apps** – Contains AEM components, templates, and OSGi configurations.
+- **ui.content** – Stores content packages such as pages, assets, and configurations.
+- **ui.frontend** – Handles frontend assets like JavaScript, CSS, and client libraries.
 
-## Publish Environment
-<details>
-  <summary>What is the Publish environment?</summary>
-  - The **Publish environment** is where the final content is served to end-users.
-  - It receives replicated content from the Author instance.
-</details>
+## Why Are We Using Run Modes?
+Run modes allow AEM to adapt configurations based on the environment (e.g., development, staging, production). Different configurations can be applied using run modes.
 
-## Dispatcher in AEM
-<details>
-  <summary>Why are we using a dispatcher?</summary>
-  - The dispatcher is a caching and security layer between the AEM Publish instance and end-users.
-  - It improves performance and provides load balancing.
-</details>
+Example:
+```sh
+-Dsling.run.modes=author,dev
+```
+
+## What is the Publish Environment?
+The **publish environment** is where the final content is available for end-users. Authors create content in the **author** instance, which is then activated (published) to the publish instance.
+
+## Why Are We Using Dispatcher?
+The **dispatcher** is a caching and security layer in AEM. It helps:
+- Improve performance by caching pages.
+- Secure the publish instance by restricting direct access.
+- Load balancing between multiple publish instances.
 
 ## Accessing CRX/DE
-<details>
-  <summary>Where can we access CRX/DE?</summary>
-  - **Author Instance:** `http://localhost:4502/crx/de`
-  - **Publish Instance:** `http://localhost:4503/crx/de`
-</details>
+The **CRX/DE** is AEM’s developer interface for managing JCR (Java Content Repository).
+- **Author Instance:** `http://localhost:4502/crx/de`
+- **Publish Instance:** `http://localhost:4503/crx/de`
+
+---
+This document provides a foundational understanding of Maven in AEM projects. 🚀
