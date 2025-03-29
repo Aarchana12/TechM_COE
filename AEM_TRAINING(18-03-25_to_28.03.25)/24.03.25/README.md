@@ -57,4 +57,3 @@ This README provides a structured guide to implementing a news-based feature in 
 
 ---
 
-### 🎯 This setup ensures a structured and dynamic News Room implementation in AEM. 🚀
