@@ -14,6 +14,7 @@ This repository contains all the weekly tasks assigned during my **COE training 
 | 4        | E-Magazine Website           | Build a responsive e-magazine platform with categories, articles, multimedia & search features.   | ✅ Completed |
 | 5        | NotesApp - Angular Project   | Develop a Single Page Application (SPA) using Angular to manage and categorize notes.             | ✅ Completed |
 | 6        | FixItNow - Flutter Project   | Create a comprehensive Flutter app for finding local service providers with Firebase integration.  | ✅ Completed |
+| 7        | AEM Training Tasks           | Hands-on tasks for Adobe Experience Manager (AEM), including components, servlets, and DAM.       | 🚀 Ongoing   |
 
 ---
 
@@ -96,6 +97,21 @@ FixItNow is a **Flutter-based mobile application** designed to help users find a
 ✅ **Multi-language support** (English & Tamil)  
 ✅ **User-friendly UI with modern layouts and images**  
 ✅ **Google Maps API integration (optional)** for location-based services  
+
+---
+
+## Task 7: AEM Training Tasks (📁 `AEM_TRAINING(18-03-25_to_28.03.25)/`)
+
+### 🔹 Introduction
+The **Adobe Experience Manager (AEM) Training** covers foundational and advanced concepts, helping to develop and manage AEM-based web applications efficiently.
+
+### 🚀 Topics Covered
+✅ **AEM Installation & Setup**: Java, Maven, and AEM JAR file configuration  
+✅ **Creating AEM Components**: Understanding HTL, Sling Models, and Editable Templates  
+✅ **Servlets & OSGi Services**: Implementing backend logic and service integrations  
+✅ **DAM (Digital Asset Management)**: Managing assets, renditions, and metadata  
+✅ **AEM Workflows & Replication**: Implementing workflow automation and content publishing  
+✅ **CQ5 & CRXDE**: Working with AEM repository and debugging code  
 
 ---
 
