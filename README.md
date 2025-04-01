@@ -100,7 +100,7 @@ FixItNow is a **Flutter-based mobile application** designed to help users find a
 
 ---
 
-## Task 7: AEM Training Tasks (📁 `AEM_TRAINING(18-03-25_to_28.03.25)/`)
+## Task 7: AEM Training Tasks (📁 `AEM_TRAINING(18.03.25_to_28.03.25)`)
 
 ### 🔹 Introduction
 The **Adobe Experience Manager (AEM) Training** covers foundational and advanced concepts, helping to develop and manage AEM-based web applications efficiently.
