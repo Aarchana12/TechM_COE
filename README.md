@@ -18,14 +18,14 @@ This repository contains all the weekly tasks assigned during my **COE training 
 
 ---
 
-## Task 1: Book Store Website
+## Task 1: Book Store Website (📁 `TASK_1_BOOKSTORE/`)
 
 ### Objective
 To build a **responsive Book Store website** that displays books with details like **title, author, price, description, and category**. This task focuses on structuring the website using **HTML5** and styling it with **CSS3**.
 
 ---
 
-## Task 2: Java OOPS & Basics
+## Task 2: Java OOPS & Basics (📁 `TASK_2_JAVA/`)
 
 ### Objective
 To implement **core Java concepts** and **Object-Oriented Programming (OOPS)** principles.
@@ -44,7 +44,7 @@ To implement **core Java concepts** and **Object-Oriented Programming (OOPS)** p
 
 ---
 
-## Task 3: Core Java Consolidated Tasks
+## Task 3: Core Java Consolidated Tasks (📁 `JAVA_CONSOLIDATED_TASKS/`)
 
 ### Objective
 To perform **various operations using Java**, covering multiple important topics such as **file handling, exception handling, multi-threading, collections, and JDBC**.
@@ -60,7 +60,7 @@ To perform **various operations using Java**, covering multiple important topics
 
 ---
 
-## Task 4: E-Magazine Website
+## Task 4: E-Magazine Website (📁 `TASK_4_E-Magazine/`)
 
 ### Objective
 To build a **fully responsive e-magazine/news website** with:
