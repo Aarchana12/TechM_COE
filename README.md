@@ -6,21 +6,15 @@ This repository contains all the weekly tasks assigned during my **COE training 
 
 ## Tasks Overview
 
-| Task No. | Task Name                    | Description                                                                                       | Folder Link                                                                                          |
-|----------|------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| 1        | Book Store Website           | Create a responsive Book Store website using HTML5 and CSS3.                                      | [Bookstore ✅](https://github.com/Aarchana12/TechM_COE/tree/main/TASK_1_BOOKSTORE)                      |
-|          |                              |                                                                                                   |                                                                                                      |
-| 2        | Java OOPS & Basics           | Implement core Java concepts and OOPS principles.                                                 | [Java ✅](https://github.com/Aarchana12/TechM_COE/tree/main/TASK_2_JAVA)                               |
-|          |                              |                                                                                                   |                                                                                                      |
-| 3        | Core Java Consolidated Tasks | Perform various operations using Java, covering IO, Collections, Threads, and more.               | [Core Java Consolidated ✅](https://github.com/Aarchana12/TechM_COE/tree/main/JAVA_CONSOLIDATED_TASKS)  |
-|          |                              |                                                                                                   |                                                                                                      |
-| 4        | E-Magazine Website           | Build a responsive e-magazine platform with categories, articles, multimedia & search features.   | [E-Magazine ✅](https://github.com/Aarchana12/TechM_COE/tree/main/TASK_4_E-Magazine)                   |
-|          |                              |                                                                                                   |                                                                                                      |
-| 5        | NotesApp - Angular Project   | Develop a Single Page Application (SPA) using Angular to manage and categorize notes.             | [Angular Project ✅](https://github.com/Aarchana12/TechM_COE/tree/main/ANGULAR_PROJECT)                |
-|          |                              |                                                                                                   |                                                                                                      |
-| 6        | FixItNow - Flutter Project   | Create a comprehensive Flutter app for finding local service providers with Firebase integration.  | [Flutter Project ✅](https://github.com/Aarchana12/TechM_COE/tree/main/FLUTTER_PROJECT)                |
-|          |                              |                                                                                                   |                                                                                                      |
-| 7        | AEM Training Tasks           | Hands-on tasks for Adobe Experience Manager (AEM), including components, servlets, and DAM.       | [AEM Training ✅](https://github.com/Aarchana12/TechM_COE/tree/main/AEM_TRAINING(18.03.25_to_28.03.25)  |
+| Task No. | Task Name                    | Description                                                                                       | Folder Link                                                                                             |
+|----------|------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| 1        | Book Store Website           | Create a responsive Book Store website using HTML5 and CSS3.                                      | [Bookstore ✅](https://github.com/Aarchana12/TechM_COE/tree/main/TASK_1_BOOKSTORE)                       |
+| 2        | Java OOPS & Basics           | Implement core Java concepts and OOPS principles.                                                 | [Java ✅](https://github.com/Aarchana12/TechM_COE/tree/main/TASK_2_JAVA)                                |
+| 3        | Core Java Consolidated Tasks | Perform various operations using Java, covering IO, Collections, Threads, and more.               | [Core Java Consolidated ✅](https://github.com/Aarchana12/TechM_COE/tree/main/JAVA_CONSOLIDATED_TASKS)   |
+| 4        | E-Magazine Website           | Build a responsive e-magazine platform with categories, articles, multimedia & search features.   | [E-Magazine ✅](https://github.com/Aarchana12/TechM_COE/tree/main/TASK_4_E-Magazine)                      |
+| 5        | NotesApp - Angular Project   | Develop a Single Page Application (SPA) using Angular to manage and categorize notes.             | [Angular Project ✅](https://github.com/Aarchana12/TechM_COE/tree/main/ANGULAR_PROJECT)                  |
+| 6        | FixItNow - Flutter Project   | Create a comprehensive Flutter app for finding local service providers with Firebase integration.  | [Flutter Project ✅](https://github.com/Aarchana12/TechM_COE/tree/main/FLUTTER_PROJECT)                  |
+| 7        | AEM Training Tasks           | Hands-on tasks for Adobe Experience Manager (AEM), including components, servlets, and DAM.       | [AEM Training ✅](https://github.com/Aarchana12/TechM_COE/tree/main/AEM_TRAINING(18.03.25_to_28.03.25 )   |
 
 ---
 
