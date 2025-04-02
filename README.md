@@ -14,7 +14,7 @@ This repository contains all the weekly tasks assigned during my **COE training 
 | 4        | E-Magazine Website           | Build a responsive e-magazine platform with categories, articles, multimedia & search features.   | ✅ Completed |
 | 5        | NotesApp - Angular Project   | Develop a Single Page Application (SPA) using Angular to manage and categorize notes.             | ✅ Completed |
 | 6        | FixItNow - Flutter Project   | Create a comprehensive Flutter app for finding local service providers with Firebase integration.  | ✅ Completed |
-| 7        | AEM Training Tasks           | Hands-on tasks for Adobe Experience Manager (AEM), including components, servlets, and DAM.       | 🚀 Ongoing   |
+| 7        | AEM Training Tasks           | Hands-on tasks for Adobe Experience Manager (AEM), including components, servlets, and DAM.       | ✅ Ongoing   |
 
 ---
 
